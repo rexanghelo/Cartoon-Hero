@@ -6,10 +6,32 @@ body {
     line-height: 30px;
 }
 
+.topnav {
+    background-color: #EFBA34;
+    position: fixed;
+    display: flex;
+    min-width: 100vw;
+    padding: 10px;
+  }
+  
+  .topnav a {
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+  }
+  
+  .topnav a:hover {
+    background-color: #F6F6F6;
+    color: #185ADB;
+  }
+
 header {
     background-color: #900E02;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 130px;
     padding-bottom: 50px;
 }
 
@@ -17,10 +39,12 @@ h1, h2 {
     font-family: 'Alegreya Sans', sans-serif;
  }
 
+ /* header styles */
+ 
 header h1 {
     color: #F6F6F6;
     font-size: 70px;
-    margin: 20px auto;
+    margin: 40px auto 20px;
     
 }
 
